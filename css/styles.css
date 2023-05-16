@@ -1,0 +1,203 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 12%;
+    position: relative;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding:0 18px ;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.download-button{
+    margin:5% 4% 5% 0;
+}
+
+.phone-img{
+    width: 20%;
+    transform: rotate(25deg);
+    margin-left: 100px;
+    position: absolute;
+}
+
+#features{
+    background-color: white;
+    padding: 7% 10%;
+    position: relative;
+    /* z-index: 1; */
+}
+h3{
+    font-weight: 600;
+}
+.feat-icon{
+    color: #ff4c67c5;
+    margin-bottom: 5%;
+}
+.feat-icon:hover{
+    color: #ff4c68;
+}
+.feat-para{
+    color: #817e7ec5;
+    padding: 5%;
+}
+.feature-box{
+    text-align: center;
+    padding: 3%;
+}
+
+/* testimonials */
+#testimonials{
+    background-color: #ff4c68;
+    /* padding: 7% 25%; */
+    text-align: center;
+}
+.testimonial-img{
+    width:10%;
+    border-radius: 100%;
+    /* margin-top: 5%; */
+}
+.testimonial-text{
+    padding: 7% 25%;
+    line-height: 1.5;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 3%;
+}
+#press{
+    background-color: #ff4c68;
+    padding: 3% 10% 4% 10%;
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    margin: 10% 3% 2%;
+}
+
+.carousel-indicators{
+    margin-bottom: 0px;
+    top: 110%;
+}
+
+/* Pricing section */
+#pricing{
+    margin: 5% 10%;
+}
+.pricing-h2{
+    font-weight: 700;
+}
+.pricing-para{
+    color: #757272c5;
+    margin-bottom: 5%;
+}
+.pricing-row{
+    text-align: center;
+}
+.price-card{
+    height: 100%;
+    
+}
+
+.price-btn{
+    width: 90%;
+
+}
+.mastiff-btn{
+    margin-top: 10px;
+}
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.cta-head{
+    font-size: 3rem;
+    padding: 7% 20% 0;
+    font-weight: 1000;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+    text-align: center;
+    padding: 5%;
+    background-color: white;
+}
+.footer-icons{
+    padding-bottom: 1%;
+}
+.footer-ico{
+    padding: 1%;
+}
+.footer-p{
+    color: #7b7777c5;
+}
+
+/* arrow */
+.arrow-page{
+    position: fixed;
+    font-size: 2rem;
+    bottom: 1%;
+    margin-left: 97%;
+    color: rgba(14, 14, 14, 0.363);
+    z-index: 3;
+}
+.arrow-page:hover{
+    font-size: 3rem;
+    cursor: pointer;
+    margin-left: 96%;
+    bottom: 1.5%;
+}
+
+/* This also works for z index of arrow icon in features section */
+/* .arrow-page #features{
+    z-index: 2;
+} */
+
+@media (max-width:1030px){
+    #title{
+        text-align: center;
+    }
+    .phone-img{
+        width: 40%;
+        position: static;
+        transform: rotate(0);
+        margin-left: 0;
+        margin-top: 3%;
+    }
+    .arrow-page{
+        margin-left: 94%;
+    }
+    .arrow-page:hover{
+        margin-left: 92.5%;
+    }
+}
